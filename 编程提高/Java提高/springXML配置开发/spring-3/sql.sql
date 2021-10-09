@@ -133,7 +133,7 @@ CREATE TABLE `employees` (
 
 LOCK TABLES `employees` WRITE;
 /*!40000 ALTER TABLE `employees` DISABLE KEYS */;
-INSERT INTO `employees` VALUES (1,'Tom','tom@163.com',1),(2,'Jerry','jerry@126.com',2),(3,'Mike','mike@souhu.com',3),(4,'Rose','rose@sina.com',3),(5,'Jack','atguigu@163.com',2),(6,'AA','aa@atguigu.com',1),(7,'BB','bb@atguigu.com',2),(8,'CC','cc@atguigu.com',3),(9,'DD','dd@atguigu.com',3),(10,'EE','ee@atguigu.com',2),(11,'FF','ff@atguigu.com',2),(12,'XYZ','xyz@sina.com',3);
+INSERT INTO `employees` VALUES (1,'Tom','tom@163.com',1),(2,'Jerry','jerry@126.com',2),(3,'Mike','mike@souhu.com',3),(4,'Rose','rose@sina.com',3),(5,'Jack','jack@163.com',2),(6,'AA','aa@jack.com',1),(7,'BB','bb@jack.com',2),(8,'CC','cc@jack.com',3),(9,'DD','dd@jack.com',3),(10,'EE','ee@jack.com',2),(11,'FF','ff@jack.com',2),(12,'XYZ','xyz@sina.com',3);
 /*!40000 ALTER TABLE `employees` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;

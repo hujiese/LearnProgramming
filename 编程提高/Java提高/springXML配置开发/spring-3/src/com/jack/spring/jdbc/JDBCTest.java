@@ -65,7 +65,7 @@ public class JDBCTest {
 
 		Map<String, Object> paramMap = new HashMap<>();
 		paramMap.put("ln", "FF");
-		paramMap.put("email", "ff@atguigu.com");
+		paramMap.put("email", "ff@jack.com");
 		paramMap.put("deptid", 2);
 
 		namedParameterJdbcTemplate.update(sql, paramMap);
@@ -133,11 +133,11 @@ public class JDBCTest {
 
 		List<Object[]> batchArgs = new ArrayList<>();
 
-		batchArgs.add(new Object[]{"AA", "aa@atguigu.com", 1});
-		batchArgs.add(new Object[]{"BB", "bb@atguigu.com", 2});
-		batchArgs.add(new Object[]{"CC", "cc@atguigu.com", 3});
-		batchArgs.add(new Object[]{"DD", "dd@atguigu.com", 3});
-		batchArgs.add(new Object[]{"EE", "ee@atguigu.com", 2});
+		batchArgs.add(new Object[]{"AA", "aa@jack.com", 1});
+		batchArgs.add(new Object[]{"BB", "bb@jack.com", 2});
+		batchArgs.add(new Object[]{"CC", "cc@jack.com", 3});
+		batchArgs.add(new Object[]{"DD", "dd@jack.com", 3});
+		batchArgs.add(new Object[]{"EE", "ee@jack.com", 2});
 
 		jdbcTemplate.batchUpdate(sql, batchArgs);
 	}
