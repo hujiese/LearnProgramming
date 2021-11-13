@@ -1,4 +1,4 @@
-package com.chatroom.client;
+package com.server;
 
 import java.awt.Dimension;
 import java.awt.Toolkit;
