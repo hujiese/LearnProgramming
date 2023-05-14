@@ -12,10 +12,10 @@ import javax.servlet.http.HttpServletRequest;
 @Controller
 public class CSRFController {
 
-     @GetMapping("/toupdate")
-     public String test(Model model){
-         return "csrf/csrfTest";
-     }
+    @GetMapping("/toupdate")
+    public String test(Model model) {
+        return "csrf/csrfTest";
+    }
 
     @PostMapping("/update_token")
     public String getToken() {

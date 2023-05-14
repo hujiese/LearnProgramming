@@ -17,10 +17,10 @@ public class UserDetailsServiceImpl implements UserDetailsService {
     @Override
     public UserDetails loadUserByUsername(String s) throws UsernameNotFoundException {
 
-            List<SimpleGrantedAuthority> list = new ArrayList<>();
-            list.add(new SimpleGrantedAuthority("role"));
-            UserDetails userDetails = new User("jack", new BCryptPasswordEncoder().encode("666")
-                    , list);
-            return userDetails;
+        List<SimpleGrantedAuthority> list = new ArrayList<>();
+        list.add(new SimpleGrantedAuthority("role"));
+        UserDetails userDetails = new User("jack", new BCryptPasswordEncoder().encode("666")
+                , list);
+        return userDetails;
     }
 }

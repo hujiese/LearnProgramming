@@ -38,10 +38,10 @@ public class TestController {
     @GetMapping("getAll")
     @PostAuthorize("hasAnyAuthority('admins')")
     @PostFilter("filterObject.username == 'admin1'")
-    public List<Users> getAllUser(){
+    public List<Users> getAllUser() {
         ArrayList<Users> list = new ArrayList<>();
-        list.add(new Users(11,"admin1","6666"));
-        list.add(new Users(21,"admin2","888"));
+        list.add(new Users(11, "admin1", "6666"));
+        list.add(new Users(21, "admin2", "888"));
         System.out.println(list);
         return list;
     }

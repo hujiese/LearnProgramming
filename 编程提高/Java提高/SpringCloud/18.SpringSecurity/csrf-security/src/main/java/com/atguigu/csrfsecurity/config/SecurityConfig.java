@@ -35,11 +35,11 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 //        http.csrf().disable();
 
         //使用自定义的登录窗口
-      http.formLogin()
-              .loginPage("/userLogin").permitAll()
-              .usernameParameter("username").passwordParameter("password")
-              .defaultSuccessUrl("/")
-              .failureUrl("/userLogin?error");
+        http.formLogin()
+                .loginPage("/userLogin").permitAll()
+                .usernameParameter("username").passwordParameter("password")
+                .defaultSuccessUrl("/")
+                .failureUrl("/userLogin?error");
     }
 }
 

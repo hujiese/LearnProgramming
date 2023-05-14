@@ -23,6 +23,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
     //注入数据源
     @Autowired
     private DataSource dataSource;
+
     //配置对象
     @Bean
     public PersistentTokenRepository persistentTokenRepository() {
@@ -77,7 +78,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 .defaultSuccessUrl("/success.html").permitAll()  //登录成功之后，跳转路径
                 .failureUrl("/unauth.html")
                 .and().authorizeRequests()
-                .antMatchers("/","/test/hello","/user/login").permitAll() //设置哪些路径可以直接访问，不需要认证
+                .antMatchers("/", "/test/hello", "/user/login").permitAll() //设置哪些路径可以直接访问，不需要认证
                 //1 hasAuthority方法
 //                .antMatchers("/test/index").hasAuthority("admins")
                 //2 hasAnyAuthority方法
