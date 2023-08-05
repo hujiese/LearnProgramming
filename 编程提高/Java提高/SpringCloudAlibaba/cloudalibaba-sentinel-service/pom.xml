@@ -19,18 +19,18 @@
     <dependencies>
         <!--SpringCloud ailibaba nacos -->
         <dependency>
-            <groupId>com.com.study.springcloud.alibaba.cloud</groupId>
-            <artifactId>spring-cloud-starter-com.study.springcloud.alibaba-nacos-discovery</artifactId>
+            <groupId>com.alibaba.cloud</groupId>
+            <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
         </dependency>
         <!--SpringCloud ailibaba sentinel-datasource-nacos 后续做持久化用到-->
         <dependency>
-            <groupId>com.com.study.springcloud.alibaba.csp</groupId>
+            <groupId>com.alibaba.csp</groupId>
             <artifactId>sentinel-datasource-nacos</artifactId>
         </dependency>
         <!--SpringCloud ailibaba sentinel -->
         <dependency>
-            <groupId>com.com.study.springcloud.alibaba.cloud</groupId>
-            <artifactId>spring-cloud-starter-com.study.springcloud.alibaba-sentinel</artifactId>
+            <groupId>com.alibaba.cloud</groupId>
+            <artifactId>spring-cloud-starter-alibaba-sentinel</artifactId>
         </dependency>
         <!--openfeign-->
         <dependency>

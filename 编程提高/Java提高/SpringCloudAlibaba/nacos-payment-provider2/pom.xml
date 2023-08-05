@@ -18,8 +18,8 @@
     <dependencies>
         <!--SpringCloud ailibaba nacos -->
         <dependency>
-            <groupId>com.com.study.springcloud.alibaba.cloud</groupId>
-            <artifactId>spring-cloud-starter-com.study.springcloud.alibaba-nacos-discovery</artifactId>
+            <groupId>com.alibaba.cloud</groupId>
+            <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
         </dependency>
         <!-- SpringBoot整合Web组件 -->
         <dependency>

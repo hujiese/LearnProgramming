@@ -19,13 +19,13 @@
     <dependencies>
         <!--nacos-config-->
         <dependency>
-            <groupId>com.com.study.springcloud.alibaba.cloud</groupId>
-            <artifactId>spring-cloud-starter-com.study.springcloud.alibaba-nacos-config</artifactId>
+            <groupId>com.alibaba.cloud</groupId>
+            <artifactId>spring-cloud-starter-alibaba-nacos-config</artifactId>
         </dependency>
         <!--nacos-discovery-->
         <dependency>
-            <groupId>com.com.study.springcloud.alibaba.cloud</groupId>
-            <artifactId>spring-cloud-starter-com.study.springcloud.alibaba-nacos-discovery</artifactId>
+            <groupId>com.alibaba.cloud</groupId>
+            <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
         </dependency>
         <!--web + actuator-->
         <dependency>
