@@ -1,0 +1,51 @@
+# nacos配置
+server:
+  port: 9014
+spring:
+  application:
+    name: nacos-spring-boot-admin
+  profiles:
+    active: dev # 表示开发环境
+    #active: test # 表示测试环境
+    #active: info
+#  security:
+#    user:
+#      name: admin
+#      password: admin
+  cloud:
+    nacos:
+      discovery:
+        server-addr: nacos.spring-cloud-test:8848 #Nacos服务注册中心地址
+    sentinel:
+      # 取消控制台懒加载
+      eager: true
+      transport:
+        dashboard: sentinel.spring-cloud-test:8080 #配置Sentinel dashboard地址
+        port: 8719
+      datasource:
+        ds1:
+          nacos:
+            server-addr: nacos.spring-cloud-test:8848
+            dataId: cloudalibaba-sentinel-service
+            groupId: DEFAULT_GROUP
+            data-type: json
+            rule-type: flow
+# 健康检查
+management:
+  endpoint:
+    health:
+      show-details: always
+  endpoints:
+    enabled-by-default: true
+    web:
+      base-path: /actuator
+      exposure:
+        include: '*'
+feign:
+  sentinel:
+    enabled: true # 激活Sentinel对Feign的支持
+
+# ${spring.application.name}-${spring.profile.active}.${spring.cloud.nacos.config.file-extension}
+# nacos-config-client-dev.yaml
+
+# nacos-config-client-test.yaml   ----> config.info

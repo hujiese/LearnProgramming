@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/SpringCloudAlibaba.iml" filepath="$PROJECT_DIR$/SpringCloudAlibaba.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nacos-service-consumer/nacos-order-consumer.iml" filepath="$PROJECT_DIR$/nacos-service-consumer/nacos-order-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nacos-service-provider/nacos-service-provider.iml" filepath="$PROJECT_DIR$/nacos-service-provider/nacos-service-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nacos-springboot-admin/nacos-springboot-admin.iml" filepath="$PROJECT_DIR$/nacos-springboot-admin/nacos-springboot-admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nacos-springboot-gateway/nacos-springboot-gateway.iml" filepath="$PROJECT_DIR$/nacos-springboot-gateway/nacos-springboot-gateway.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,67 @@
+# nacos配置
+server:
+  port: 9011
+spring:
+  application:
+    name: nacos-springboot-gateway
+  profiles:
+    active: dev # 表示开发环境
+    #active: test # 表示测试环境
+    #active: info
+  cloud:
+    nacos:
+      discovery:
+        server-addr: nacos.spring-cloud-test:8848 #Nacos服务注册中心地址
+      config:
+        server-addr: nacos.spring-cloud-test:8848 #Nacos作为配置中心地址
+        file-extension: yaml #指定yaml格式的配置
+        group: DEFAULT_GROUP
+        namespace: b86e18ab-8f89-43a8-a9ef-c5d5d1154cc3
+    sentinel:
+      # 取消控制台懒加载
+      eager: true
+      transport:
+        dashboard: sentinel.spring-cloud-test:8080 #配置Sentinel dashboard地址
+        port: 8719
+      datasource:
+        ds1:
+          nacos:
+            server-addr: nacos.spring-cloud-test:8848
+            dataId: cloudalibaba-sentinel-service
+            groupId: DEFAULT_GROUP
+            data-type: json
+            rule-type: flow
+# 在 nacos 中获取
+#    gateway:
+#      discovery:
+#        locator:
+#          enabled: true #启用DiscoveryClient网关集成的标志,可以实现服务的发现
+#      #gateway 定义路由转发规则
+#      routes:
+#        #一份设定
+#        - id: service-provider   #唯一标识
+#          uri: lb://nacos-service-provider  #访问的路径，lb://负载均衡访问固定写法，通过负载均衡调取所有设定中的一份
+#          predicates: #谓词，判断，是否匹配。用户请求的路径是否与...进行匹配，如果匹配则可以访问，否则就404
+#            - Path=/provider/**
+#        - id: service-consumer
+#          uri: lb://nacos-service-consumer
+#          predicates:
+#            - Path=/consumer/**
+management:
+  endpoint:
+    health:
+      show-details: always
+  endpoints:
+    enabled-by-default: true
+    web:
+      base-path: /actuator
+      exposure:
+        include: '*'
+feign:
+  sentinel:
+    enabled: true # 激活Sentinel对Feign的支持
+
+# ${spring.application.name}-${spring.profile.active}.${spring.cloud.nacos.config.file-extension}
+# nacos-config-client-dev.yaml
+
+# nacos-config-client-test.yaml   ----> config.info
