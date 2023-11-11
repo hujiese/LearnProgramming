@@ -1,13 +1,3 @@
-<component name="libraryTable">
-  <library name="Maven: org.springframework.boot:spring-boot-starter-json:2.7.13">
-    <CLASSES>
-      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-json/2.7.13/spring-boot-starter-json-2.7.13.jar!/" />
-    </CLASSES>
-    <JAVADOC>
-      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-json/2.7.13/spring-boot-starter-json-2.7.13-javadoc.jar!/" />
-    </JAVADOC>
-    <SOURCES>
-      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-json/2.7.13/spring-boot-starter-json-2.7.13-sources.jar!/" />
-    </SOURCES>
-  </library>
-</component>
+version https://git-lfs.github.com/spec/v1
+oid sha256:f28acfe1061d31326ab3d40cfc5dcaf576fb874f8c95b705766086182d90e019
+size 865

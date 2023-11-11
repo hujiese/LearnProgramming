@@ -1,13 +1,3 @@
-<component name="libraryTable">
-  <library name="Maven: org.springframework:spring-context:5.3.28">
-    <CLASSES>
-      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.3.28/spring-context-5.3.28.jar!/" />
-    </CLASSES>
-    <JAVADOC>
-      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.3.28/spring-context-5.3.28-javadoc.jar!/" />
-    </JAVADOC>
-    <SOURCES>
-      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.3.28/spring-context-5.3.28-sources.jar!/" />
-    </SOURCES>
-  </library>
-</component>
+version https://git-lfs.github.com/spec/v1
+oid sha256:2bcc43138cbfa03cd3ed962baa547ceb739a54d3ca85ee25220a901754dfcf2c
+size 775

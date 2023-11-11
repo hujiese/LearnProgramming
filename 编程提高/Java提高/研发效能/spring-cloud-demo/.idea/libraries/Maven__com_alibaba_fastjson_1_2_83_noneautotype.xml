@@ -1,13 +1,3 @@
-<component name="libraryTable">
-  <library name="Maven: com.alibaba:fastjson:1.2.83_noneautotype">
-    <CLASSES>
-      <root url="jar://$MAVEN_REPOSITORY$/com/alibaba/fastjson/1.2.83_noneautotype/fastjson-1.2.83_noneautotype.jar!/" />
-    </CLASSES>
-    <JAVADOC>
-      <root url="jar://$MAVEN_REPOSITORY$/com/alibaba/fastjson/1.2.83_noneautotype/fastjson-1.2.83_noneautotype-javadoc.jar!/" />
-    </JAVADOC>
-    <SOURCES>
-      <root url="jar://$MAVEN_REPOSITORY$/com/alibaba/fastjson/1.2.83_noneautotype/fastjson-1.2.83_noneautotype-sources.jar!/" />
-    </SOURCES>
-  </library>
-</component>
+version https://git-lfs.github.com/spec/v1
+oid sha256:42a5f2b752af3581599b6d6b9abe8adfe2be6b496f6d5fad44bbec469e520154
+size 792

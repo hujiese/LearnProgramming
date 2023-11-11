@@ -1,13 +1,3 @@
-<component name="libraryTable">
-  <library name="Maven: org.assertj:assertj-core:3.22.0">
-    <CLASSES>
-      <root url="jar://$MAVEN_REPOSITORY$/org/assertj/assertj-core/3.22.0/assertj-core-3.22.0.jar!/" />
-    </CLASSES>
-    <JAVADOC>
-      <root url="jar://$MAVEN_REPOSITORY$/org/assertj/assertj-core/3.22.0/assertj-core-3.22.0-javadoc.jar!/" />
-    </JAVADOC>
-    <SOURCES>
-      <root url="jar://$MAVEN_REPOSITORY$/org/assertj/assertj-core/3.22.0/assertj-core-3.22.0-sources.jar!/" />
-    </SOURCES>
-  </library>
-</component>
+version https://git-lfs.github.com/spec/v1
+oid sha256:f7d882171427a1c55c4a09d1302f3bac9b1aacdc3d5ee70d92d92dc13462e327
+size 729

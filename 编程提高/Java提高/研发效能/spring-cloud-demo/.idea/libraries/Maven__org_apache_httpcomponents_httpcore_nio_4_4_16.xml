@@ -1,13 +1,3 @@
-<component name="libraryTable">
-  <library name="Maven: org.apache.httpcomponents:httpcore-nio:4.4.16">
-    <CLASSES>
-      <root url="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore-nio/4.4.16/httpcore-nio-4.4.16.jar!/" />
-    </CLASSES>
-    <JAVADOC>
-      <root url="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore-nio/4.4.16/httpcore-nio-4.4.16-javadoc.jar!/" />
-    </JAVADOC>
-    <SOURCES>
-      <root url="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore-nio/4.4.16/httpcore-nio-4.4.16-sources.jar!/" />
-    </SOURCES>
-  </library>
-</component>
+version https://git-lfs.github.com/spec/v1
+oid sha256:8296ba95f5011e590bb56729ece5ae81e0188faf6d4ab795a5aea6680199342e
+size 785

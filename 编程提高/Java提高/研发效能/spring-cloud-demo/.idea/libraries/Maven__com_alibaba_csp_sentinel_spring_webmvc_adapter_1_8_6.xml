@@ -1,13 +1,3 @@
-<component name="libraryTable">
-  <library name="Maven: com.alibaba.csp:sentinel-spring-webmvc-adapter:1.8.6">
-    <CLASSES>
-      <root url="jar://$MAVEN_REPOSITORY$/com/alibaba/csp/sentinel-spring-webmvc-adapter/1.8.6/sentinel-spring-webmvc-adapter-1.8.6.jar!/" />
-    </CLASSES>
-    <JAVADOC>
-      <root url="jar://$MAVEN_REPOSITORY$/com/alibaba/csp/sentinel-spring-webmvc-adapter/1.8.6/sentinel-spring-webmvc-adapter-1.8.6-javadoc.jar!/" />
-    </JAVADOC>
-    <SOURCES>
-      <root url="jar://$MAVEN_REPOSITORY$/com/alibaba/csp/sentinel-spring-webmvc-adapter/1.8.6/sentinel-spring-webmvc-adapter-1.8.6-sources.jar!/" />
-    </SOURCES>
-  </library>
-</component>
+version https://git-lfs.github.com/spec/v1
+oid sha256:78f569278dd1176eb348ba9990a7304d400a223a95ed3f2e6547edf56a095b42
+size 864

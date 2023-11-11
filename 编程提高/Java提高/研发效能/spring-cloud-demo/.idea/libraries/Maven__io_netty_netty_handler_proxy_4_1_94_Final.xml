@@ -1,13 +1,3 @@
-<component name="libraryTable">
-  <library name="Maven: io.netty:netty-handler-proxy:4.1.94.Final">
-    <CLASSES>
-      <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-handler-proxy/4.1.94.Final/netty-handler-proxy-4.1.94.Final.jar!/" />
-    </CLASSES>
-    <JAVADOC>
-      <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-handler-proxy/4.1.94.Final/netty-handler-proxy-4.1.94.Final-javadoc.jar!/" />
-    </JAVADOC>
-    <SOURCES>
-      <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-handler-proxy/4.1.94.Final/netty-handler-proxy-4.1.94.Final-sources.jar!/" />
-    </SOURCES>
-  </library>
-</component>
+version https://git-lfs.github.com/spec/v1
+oid sha256:4acbac51b2ac4b51ec5307aa011a187f1e7d8253edd974ecfe47c58613fbd1f6
+size 808

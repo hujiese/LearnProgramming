@@ -1,13 +1,3 @@
-<component name="libraryTable">
-  <library name="Maven: org.springframework.boot:spring-boot-starter-webflux:2.7.13">
-    <CLASSES>
-      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-webflux/2.7.13/spring-boot-starter-webflux-2.7.13.jar!/" />
-    </CLASSES>
-    <JAVADOC>
-      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-webflux/2.7.13/spring-boot-starter-webflux-2.7.13-javadoc.jar!/" />
-    </JAVADOC>
-    <SOURCES>
-      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-webflux/2.7.13/spring-boot-starter-webflux-2.7.13-sources.jar!/" />
-    </SOURCES>
-  </library>
-</component>
+version https://git-lfs.github.com/spec/v1
+oid sha256:db7b6a11b9ca74734b95ffbb13d79543e1c64a99aee2ed9729817304410008b7
+size 886

@@ -1,13 +1,3 @@
-package com.study.springcloud.alibaba;
-
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
-
-@EnableDiscoveryClient
-@SpringBootApplication
-public class ConsumerMain83 {
-    public static void main(String[] args) {
-        SpringApplication.run(ConsumerMain83.class, args);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:ba1d95848f92d889ccf217250496247d161e8a455adc54831ec278db0dcb2b72
+size 620

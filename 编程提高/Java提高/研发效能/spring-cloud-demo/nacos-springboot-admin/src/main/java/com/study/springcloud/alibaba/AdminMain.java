@@ -1,15 +1,3 @@
-package com.study.springcloud.alibaba;
-
-import de.codecentric.boot.admin.server.config.EnableAdminServer;
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
-
-@EnableAdminServer
-@EnableDiscoveryClient
-@SpringBootApplication
-public class AdminMain {
-    public static void main(String[] args) {
-        SpringApplication.run(AdminMain.class, args);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:9d18241ac60ab81eb4567293001e6f110986a22bc6c28f127b1c2dd6d66b62d4
+size 695

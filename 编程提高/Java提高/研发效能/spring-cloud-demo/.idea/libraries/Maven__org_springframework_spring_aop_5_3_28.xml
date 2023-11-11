@@ -1,13 +1,3 @@
-<component name="libraryTable">
-  <library name="Maven: org.springframework:spring-aop:5.3.28">
-    <CLASSES>
-      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.3.28/spring-aop-5.3.28.jar!/" />
-    </CLASSES>
-    <JAVADOC>
-      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.3.28/spring-aop-5.3.28-javadoc.jar!/" />
-    </JAVADOC>
-    <SOURCES>
-      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.3.28/spring-aop-5.3.28-sources.jar!/" />
-    </SOURCES>
-  </library>
-</component>
+version https://git-lfs.github.com/spec/v1
+oid sha256:d31ee2fb73593c8402534fe25d7d441b41d487967ae2fdc6f516a390e6d86bc4
+size 747

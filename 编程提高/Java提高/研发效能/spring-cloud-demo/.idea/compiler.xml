@@ -1,23 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
-  <component name="CompilerConfiguration">
-    <annotationProcessing>
-      <profile name="Maven default annotation processors profile" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <module name="nacos-springboot-gateway" />
-        <module name="nacos-service-provider" />
-        <module name="nacos-order-consumer" />
-        <module name="nacos-springboot-admin" />
-      </profile>
-    </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="nacos-order-consumer" target="1.8" />
-      <module name="nacos-service-provider" target="1.8" />
-      <module name="nacos-springboot-admin" target="1.8" />
-      <module name="nacos-springboot-gateway" target="1.8" />
-      <module name="SpringCloudAlibaba" target="1.8" />
-    </bytecodeTargetLevel>
-  </component>
-</project>
+version https://git-lfs.github.com/spec/v1
+oid sha256:69b4b53e510854e719037b3565211d8b9b2b5d01257e1ee16b22ccb81343dfb6
+size 1239

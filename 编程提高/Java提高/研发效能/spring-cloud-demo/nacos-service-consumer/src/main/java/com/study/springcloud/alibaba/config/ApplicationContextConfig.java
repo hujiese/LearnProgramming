@@ -1,15 +1,3 @@
-package com.study.springcloud.alibaba.config;
-
-import org.springframework.cloud.client.loadbalancer.LoadBalanced;
-import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.Configuration;
-import org.springframework.web.client.RestTemplate;
-
-@Configuration
-public class ApplicationContextConfig {
-    @Bean
-    @LoadBalanced
-    public RestTemplate getRestTemplate() {
-        return new RestTemplate();
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:77285e327dc00d14d58a102baa524feab4779f24f5624c890c1b70039665a765
+size 648

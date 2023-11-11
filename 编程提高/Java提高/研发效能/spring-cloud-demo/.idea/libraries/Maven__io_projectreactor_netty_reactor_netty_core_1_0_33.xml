@@ -1,13 +1,3 @@
-<component name="libraryTable">
-  <library name="Maven: io.projectreactor.netty:reactor-netty-core:1.0.33">
-    <CLASSES>
-      <root url="jar://$MAVEN_REPOSITORY$/io/projectreactor/netty/reactor-netty-core/1.0.33/reactor-netty-core-1.0.33.jar!/" />
-    </CLASSES>
-    <JAVADOC>
-      <root url="jar://$MAVEN_REPOSITORY$/io/projectreactor/netty/reactor-netty-core/1.0.33/reactor-netty-core-1.0.33-javadoc.jar!/" />
-    </JAVADOC>
-    <SOURCES>
-      <root url="jar://$MAVEN_REPOSITORY$/io/projectreactor/netty/reactor-netty-core/1.0.33/reactor-netty-core-1.0.33-sources.jar!/" />
-    </SOURCES>
-  </library>
-</component>
+version https://git-lfs.github.com/spec/v1
+oid sha256:0bf4faf781cc920623b0762db58a54a7eb6199485378ddba1a04a47cca5f4dc7
+size 819

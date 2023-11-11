@@ -1,13 +1,3 @@
-<component name="libraryTable">
-  <library name="Maven: io.prometheus:simpleclient:0.15.0">
-    <CLASSES>
-      <root url="jar://$MAVEN_REPOSITORY$/io/prometheus/simpleclient/0.15.0/simpleclient-0.15.0.jar!/" />
-    </CLASSES>
-    <JAVADOC>
-      <root url="jar://$MAVEN_REPOSITORY$/io/prometheus/simpleclient/0.15.0/simpleclient-0.15.0-javadoc.jar!/" />
-    </JAVADOC>
-    <SOURCES>
-      <root url="jar://$MAVEN_REPOSITORY$/io/prometheus/simpleclient/0.15.0/simpleclient-0.15.0-sources.jar!/" />
-    </SOURCES>
-  </library>
-</component>
+version https://git-lfs.github.com/spec/v1
+oid sha256:2ddeaf619d9c45352c3d512b3bb1024deffbdfab6da3884bba71164aa2fde748
+size 737

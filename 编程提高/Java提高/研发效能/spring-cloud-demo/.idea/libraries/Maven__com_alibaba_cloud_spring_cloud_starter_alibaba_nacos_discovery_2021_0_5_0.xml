@@ -1,13 +1,3 @@
-<component name="libraryTable">
-  <library name="Maven: com.alibaba.cloud:spring-cloud-starter-alibaba-nacos-discovery:2021.0.5.0">
-    <CLASSES>
-      <root url="jar://$MAVEN_REPOSITORY$/com/alibaba/cloud/spring-cloud-starter-alibaba-nacos-discovery/2021.0.5.0/spring-cloud-starter-alibaba-nacos-discovery-2021.0.5.0.jar!/" />
-    </CLASSES>
-    <JAVADOC>
-      <root url="jar://$MAVEN_REPOSITORY$/com/alibaba/cloud/spring-cloud-starter-alibaba-nacos-discovery/2021.0.5.0/spring-cloud-starter-alibaba-nacos-discovery-2021.0.5.0-javadoc.jar!/" />
-    </JAVADOC>
-    <SOURCES>
-      <root url="jar://$MAVEN_REPOSITORY$/com/alibaba/cloud/spring-cloud-starter-alibaba-nacos-discovery/2021.0.5.0/spring-cloud-starter-alibaba-nacos-discovery-2021.0.5.0-sources.jar!/" />
-    </SOURCES>
-  </library>
-</component>
+version https://git-lfs.github.com/spec/v1
+oid sha256:a7b4a22a090867e8461537fbdc47ebe41c4b6c4bee026e9ab74d527b44aa73aa
+size 1005
